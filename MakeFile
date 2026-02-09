@@ -1,0 +1,9 @@
+run:
+	uvicorn app.main:app --reload
+
+lint:
+	ruff check .
+
+fmt:
+	ruff format .
+

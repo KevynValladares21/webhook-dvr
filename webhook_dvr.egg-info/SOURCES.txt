@@ -1,0 +1,6 @@
+pyproject.toml
+webhook_dvr.egg-info/PKG-INFO
+webhook_dvr.egg-info/SOURCES.txt
+webhook_dvr.egg-info/dependency_links.txt
+webhook_dvr.egg-info/requires.txt
+webhook_dvr.egg-info/top_level.txt

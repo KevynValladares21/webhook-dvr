@@ -1,0 +1,22 @@
+[project]
+name = "webhook-dvr"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.110",
+  "uvicorn[standard]>=0.27",
+  "pydantic-settings>=2.2",
+]
+
+[project.optional-dependencies]
+dev = [
+  "ruff>=0.4",
+  "pytest>=8.0",
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
