@@ -2,9 +2,14 @@ Metadata-Version: 2.4
 Name: webhook-dvr
 Version: 0.1.0
 Requires-Python: >=3.11
+License-File: LICENSE
 Requires-Dist: fastapi>=0.110
 Requires-Dist: uvicorn[standard]>=0.27
 Requires-Dist: pydantic-settings>=2.2
+Requires-Dist: sqlalchemy>=2.0
+Requires-Dist: psycopg[binary]>=3.1
+Requires-Dist: alembic>=1.13
 Provides-Extra: dev
 Requires-Dist: ruff>=0.4; extra == "dev"
 Requires-Dist: pytest>=8.0; extra == "dev"
+Dynamic: license-file
