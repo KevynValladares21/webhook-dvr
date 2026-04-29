@@ -6,7 +6,11 @@ class Settings(BaseSettings):
 
     app_name: str = "webhook-dvr"
     env: str = "dev"
+
     database_url: str = "postgresql+psycopg://webhook:webhook@localhost:5432/webhook"
+
+    api_key: str = "dev-secret-key"
+    replay_target_url: str = "http://localhost:9000/test"
 
 
 settings = Settings()
